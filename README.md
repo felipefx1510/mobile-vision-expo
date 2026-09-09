@@ -23,16 +23,6 @@ O Vision Mobile foi pensado para ajudar estudantes a manter uma rotina de estudo
 
 A versão atual funciona como um protótipo navegável. Os dados são demonstrativos e a autenticação é simulada localmente, sem comunicação com um servidor.
 
-## Requisitos da avaliação
-
-| Requisito | Pontuação | Como foi atendido |
-| --- | ---: | --- |
-| Pelo menos quatro telas, sendo uma de autenticação | 3 pontos | Foram desenvolvidas cinco telas: Login, Início, Plano, Simulados e Perfil. |
-| Formulário com validação | 2 pontos | O Login valida e-mail obrigatório, formato do e-mail, senha obrigatória e mínimo de seis caracteres. |
-| Layout visual elaborado | 3 pontos | O aplicativo possui identidade visual própria, cartões, indicadores de progresso, calendário, ícones, estados interativos e hierarquia tipográfica. |
-| Organização e estrutura | 1 ponto | Rotas, componentes, contexto, dados, tokens e validações foram separados por responsabilidade. |
-| Navegação simples com Stack | 1 ponto | O layout raiz utiliza `Stack` para controlar o fluxo entre autenticação e aplicação. As telas internas também utilizam abas para facilitar o uso. |
-
 ## Telas desenvolvidas
 
 ### 1. Login — autenticação
