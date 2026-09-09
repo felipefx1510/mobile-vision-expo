@@ -10,21 +10,6 @@ A aplicação foi construída com **React Native**, **Expo**, **Expo Router**, *
 
 **Link para entrega:** `INSERIR_AQUI_O_LINK_DO_REPOSITORIO`
 
-O repositório local ainda não possui um remote Git configurado. Antes de entregar o trabalho, crie um repositório no GitHub, substitua o texto acima pelo link real e publique o projeto:
-
-```bash
-git add .
-git commit -m "feat: adiciona aplicativo mobile Vision"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
-git push -u origin main
-```
-
-Se o remote já tiver sido configurado posteriormente, confira o endereço com:
-
-```bash
-git remote -v
-```
 
 ## Objetivo do aplicativo
 
