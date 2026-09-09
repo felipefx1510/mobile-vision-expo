@@ -548,13 +548,4 @@ Durante o desenvolvimento foram executadas as seguintes verificações:
 - inspeção em viewport mobile de 390 × 844;
 - verificação do console sem erros.
 
-## Autor
-
-**Nome do aluno:** `PREENCHER_NOME_DO_ALUNO`
-
-**Curso/Disciplina:** `PREENCHER_CURSO_E_DISCIPLINA`
-
-**Professor:** `PREENCHER_NOME_DO_PROFESSOR`
-
-**Data de entrega:** `PREENCHER_DATA`
 
