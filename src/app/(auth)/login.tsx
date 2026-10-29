@@ -155,6 +155,15 @@ export default function LoginScreen() {
               <Text className="text-center text-xs leading-5 text-vision-gray">
                 Para testar, use qualquer e-mail válido e uma senha com 6 ou mais caracteres.
               </Text>
+
+              <Pressable
+                accessibilityRole="button"
+                onPress={() => router.push('/onboarding')}
+                className="min-h-[44px] items-center justify-center py-2">
+                <Text className="text-xs font-bold text-vision-gray">
+                  Primeiro acesso? <Text className="text-vision-deep font-black underline">Configurar minhas metas</Text>
+                </Text>
+              </Pressable>
             </View>
 
             <Text className="mt-6 text-center text-[11px] leading-5 text-white/35">

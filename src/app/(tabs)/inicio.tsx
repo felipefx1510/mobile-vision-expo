@@ -35,11 +35,12 @@ export default function HomeScreen() {
         </View>
       </View>
 
-      <SectionTitle title="Continuar estudando" action="Ver plano" onPress={() => router.push('/plano')} />
+      <SectionTitle title="Continuar estudando" action="Ver aula" onPress={() => router.push('/aula/1')} />
       <Pressable
         accessibilityRole="button"
-        onPress={() => router.push('/plano')}
-        className="rounded-[26px] border border-vision-line bg-white p-4 active:scale-[0.99]">
+        accessibilityLabel="Continuar estudando Matemática, Aula 06: Funções do 2º grau"
+        onPress={() => router.push('/aula/1')}
+        className="rounded-[26px] border border-vision-line bg-white p-4 active:scale-[0.99] shadow-sm">
         <View className="flex-row items-center">
           <View className="h-16 w-16 items-center justify-center rounded-2xl bg-vision-green">
             <Icon name={{ ios: 'function', android: 'functions', web: 'functions' }} size={28} />
